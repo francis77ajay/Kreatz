@@ -1,1 +1,245 @@
+style.css
+Type
+Style Sheet
+Size
+5 KB (4,670 bytes)
+Storage used
+5 KB (4,670 bytes)
+Location
+3starcargo 2
+Owner
+me
+Modified
+10:05 by me
+Opened
+10:20 by me
+Created
+10:05 with Google Drive Web
+Add a description
+Viewers can download
+html,body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+    background-color:rgba(0, 0, 0, 0)!important;
+    
+}a{
+    text-decoration-line: none!important;
+}
+#inter{
+    background-color: black;
+    color: white;
+    text-align: end;
+}#inter i{
+    color: #ff9900;;
+}.nav li{
+    display: inline-block;
+    letter-spacing: 2px;
+    vertical-align: -70%;
+    color: white;
+    padding-left: 1%
+}
+.btn2-layer{
+        float: right;
+        background-color: transparent;
+        padding-top: 0.5%;
+        padding-right: 0.5%;
+        
+}
+.btn2{
+        background-color:#00a2ff00;
+        color: rgb(255, 255, 255);
+        border-radius: 0px 0px 0px 0px !important;
+        border: 2px solid white!important;
+        padding:1%;
+    }
+.nav{
+    background-color: rgba(43, 45, 170, 0.274);
+    margin-top:1%;
+}
 
+.main-body{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: auto;
+
+}
+.head-section{
+   background-color: rgba(201, 201, 201, 0);
+   background-blend-mode: lighten;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}.base-layer-1 h1{
+/*color: #040a3e;*/
+font-size: 25px;
+color:#1c1e7e;
+font-weight: 700;
+display: inline;
+vertical-align: -10px;
+text-shadow: 0px 0px 0px rgb(6, 46, 65);
+}.logo{
+    display: inline-block;
+
+}.title{
+    display: inline-block;
+}#enq{
+    background-color: rgb(40, 168, 228);
+  
+}#enq-l{
+    display: inline-block;
+    background-color: rgb(255, 145, 0);
+}.cbtn1{
+    background-color:rgba(0, 0, 0, 0.315) ;
+    border: 2px solid rgb(255, 255, 255)!important;
+    color: rgb(255, 255, 255);
+    padding-right: 5%;
+    padding-left:2%;
+    padding-top:1%;
+    padding-bottom:1%;
+}btn{
+   
+  
+}#moto1{
+    position: relative;
+    top: 35%;
+    left: 8%;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    padding: 2%;
+    
+}
+#moto1 h3{
+        font-size:20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+}
+#moto1 h3{
+    font-size:50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}.section-2{
+    background-color: #ffffffb2;
+    position: relative;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+    padding-bottom: 10%;
+
+}.section-2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #1c1e7e;
+    text-align: left;
+    font-size: 50px;
+    
+}#sec-2-con{
+  
+    font-family: Advent Pro;
+    font-size: 20px;
+}
+#sec-2-img{
+    width: 50%;
+    float: right;
+  
+    
+}
+.section-3{
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}.boxi{
+    background-color: #050666;
+    overflow: hidden;
+    position: relative;
+    
+}.box img{
+    height: 250px;
+    max-width: 100%;
+    
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}.box:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .clickme{
+    display: none;
+    position: absolute;
+  }
+.box:hover .clickme{
+    display: grid;
+    color: white;
+    position: absolute;
+    background-color: rgba(9, 24, 37, 0.336);
+    top: 3%;
+    width: 93%;
+    height: 79%;
+    text-align: center;
+    padding-top: 45%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    display: inline-block;
+  }
+  .box:hover
+{text-decoration: none;}
+.box{
+    
+    position: relative;
+    padding-top:1%;
+}.box p{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #050666;
+    color: white;
+    padding:5%;
+}.sec-3-outer{
+    padding-top:10%;
+    padding-bottom: 10%;
+}.footer{
+background-color: #04064e;
+height: 300px;
+color: grey;
+}
+.footer h3, .footer h5{
+    color: white;
+    font-weight:700;
+}
+.layer-footer{
+padding-left:8%;
+padding-right:8%;
+}
+#social a{
+    color: white;
+    padding: 2%;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 16px;
+}#social p{
+    padding-top:5%;
+}.control-label{
+    text-align: left!important;
+}
+#mybtn{
+padding-left:2%;
+}
+
+@media only screen and (max-width: 1140px) {
+    #moto1 h3{
+      font-size: 30px;
+    }
+    #moto1 p{
+        font-size: 16px;
+    }
+  }
